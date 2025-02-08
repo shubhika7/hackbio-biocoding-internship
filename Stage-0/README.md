@@ -10,9 +10,6 @@ This repository contains my solution for the Stage-Zero task in the HackBio Bioc
 - Followed the restriction of **no loops, functions, or conditionals**.
 - Uwidia Osalodion Emmanuel is our Team Leader<br>
 
-## How to Run the Script
-Clone the repo and run:
-```bash
-python your_script.py
+
 
 
