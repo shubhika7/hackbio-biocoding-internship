@@ -56,45 +56,13 @@ serine02_members = {
     }
 }
 
-# Printing each member's details (NO LOOPS)
-print(f"""
-Hi! My name is {serine02_members["Member 1"]["name"]}!
-Here are my details:
-Email: {serine02_members["Member 1"]["email"]}
-Slack Username: {serine02_members["Member 1"]["slack username"]}
-Hobbies: {serine02_members["Member 1"]["hobby"]}
-Country: {serine02_members["Member 1"]["country"]}
-Discipline: {serine02_members["Member 1"]["discipline"]}
-My preferred programming language: {serine02_members["Member 1"]["preferred programming language"]}
-{"-"*75}
+print("✨ Meet Our Team! ✨")
+print("=" * 30)
+for i, member in serine02_members.items():
+    print(f"🔹 {i}")  # This will print "🔹 Member 1", "🔹 Member 2", etc.
+    for key, value in member.items():
+        print(f"{key.capitalize()} : {value}")
+    print("-" * 75)
+print("=" * 30)
+print("\n🎉 Welcome to Hackbio! 🎉\n")
 
-Hi! My name is {serine02_members["Member 2"]["name"]}!
-Here are my details:
-Email: {serine02_members["Member 2"]["email"]}
-Slack Username: {serine02_members["Member 2"]["slack username"]}
-Hobbies: {serine02_members["Member 2"]["hobby"]}
-Country: {serine02_members["Member 2"]["country"]}
-Discipline: {serine02_members["Member 2"]["discipline"]}
-My preferred programming language: {serine02_members["Member 2"]["preferred programming language"]}
-{"-"*75}
-
-Hi! My name is {serine02_members["Member 3"]["name"]}!
-Here are my details:
-Email: {serine02_members["Member 3"]["email"]}
-Slack Username: {serine02_members["Member 3"]["slack username"]}
-Hobbies: {serine02_members["Member 3"]["hobby"]}
-Country: {serine02_members["Member 3"]["country"]}
-Discipline: {serine02_members["Member 3"]["discipline"]}
-My preferred programming language: {serine02_members["Member 3"]["preferred programming language"]}
-{"-"*75}
-
-Hi! My name is {serine02_members["Member 4"]["name"]}!
-Here are my details:
-Email: {serine02_members["Member 4"]["email"]}
-Slack Username: {serine02_members["Member 4"]["slack username"]}
-Hobbies: {serine02_members["Member 4"]["hobby"]}
-Country: {serine02_members["Member 4"]["country"]}
-Discipline: {serine02_members["Member 4"]["discipline"]}
-My preferred programming language: {serine02_members["Member 4"]["preferred programming language"]}
-{"-"*75}
-""")
