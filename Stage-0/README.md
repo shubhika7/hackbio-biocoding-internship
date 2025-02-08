@@ -7,7 +7,7 @@ This repository contains my solution for the Stage-Zero task in the HackBio Bioc
 ## Task Details
 - I used **Python** to print my bio details.
 - Used **nested dictionaries** for team members' information.
-- Followed the restriction of **no loops, functions, or conditionals**.
+- Followed the restriction of **functions, or conditionals**.
 - Uwidia Osalodion Emmanuel is our Team Leader<br>
 
 
