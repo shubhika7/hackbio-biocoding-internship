@@ -1,7 +1,18 @@
-<h1> Hackbio-Biocoding-Internship </h1>
-<h2>Stage-0️⃣</h2>
+# Stage 0️⃣ Task - HackBio Biocoding Internship
+
+## Introduction
 Hey! I am Shubhika Kumar<br> 
-- The codon assigned to me was UCU (Serine)<br>
-- This is my Stage-0 Task<br>
-- I have used nested dictionaries as a data structure to solve this task. And used a for loop to      print each member's details.<br>
+This repository contains my solution for the Stage-Zero task in the HackBio Biocoding Internship.
+
+## Task Details
+- I used **Python** to print my bio details.
+- Used **nested dictionaries** for team members' information.
+- Followed the restriction of **no loops, functions, or conditionals**.
 - Uwidia Osalodion Emmanuel is our Team Leader<br>
+
+## How to Run the Script
+Clone the repo and run:
+```bash
+python your_script.py
+
+
