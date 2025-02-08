@@ -5,14 +5,6 @@
 [1] Hey! I am Shubhika Kumar 
 [2] The codon assigned to me was UCU (Serine)
 [3] This is my Stage-0 Task
-[4] I have used nested dictionaries as a data structure to solve this task
-[5] Team Member 1, Uwidia Osalodion Emmanuel is our Team Leader
-'''
-
-'''
-[1] Hey! I am Shubhika Kumar 
-[2] The codon assigned to me was UCU (Serine)
-[3] This is my Stage-0 Task
 [4] I have used nested dictionaries as a data structure to solve this task.
 [5] Team Member 1, Uwidia Osalodion Emmanuel is our Team Leader
 '''
@@ -58,11 +50,46 @@ serine02_members = {
 
 print("✨ Meet Our Team! ✨")
 print("=" * 30)
-for i, member in serine02_members.items():
-    print(f"🔹 {i}")  # This will print "🔹 Member 1", "🔹 Member 2", etc.
-    for key, value in member.items():
-        print(f"{key.capitalize()} : {value}")
-    print("-" * 75)
-print("=" * 30)
-print("\n🎉 Welcome to Hackbio! 🎉\n")
 
+print(f"🔹 Member 1\nName ➡ {serine02_members['Member 1']['name']}")
+print(f"Slack Username ➡ {serine02_members['Member 1']['slack username']}")
+print(f"Email ➡ {serine02_members['Member 1']['email']}")
+print(f"Hobby ➡ {serine02_members['Member 1']['hobby']}")
+print(f"Country ➡ {serine02_members['Member 1']['country']}")
+print(f"Discipline ➡ {serine02_members['Member 1']['discipline']}")
+print(f"My Preferred Programming Language ➡ {serine02_members['Member 1']['preferred programming language']}\n")
+
+print("✨ Meet Our Team! ✨")
+print("=" * 30)
+
+print(f"🔹 Member 2\nName ➡ {serine02_members['Member 2']['name']}")
+print(f"Slack Username ➡ {serine02_members['Member 2']['slack username']}")
+print(f"Email ➡ {serine02_members['Member 2']['email']}")
+print(f"Hobby ➡ {serine02_members['Member 2']['hobby']}")
+print(f"Country ➡ {serine02_members['Member 2']['country']}")
+print(f"Discipline ➡ {serine02_members['Member 2']['discipline']}")
+print(f"My Preferred Programming Language ➡ {serine02_members['Member 2']['preferred programming language']}\n")
+
+print("✨ Meet Our Team! ✨")
+print("=" * 30)
+
+print(f"🔹 Member 3\nName ➡ {serine02_members['Member 3']['name']}")
+print(f"Slack Username ➡ {serine02_members['Member 3']['slack username']}")
+print(f"Email ➡ {serine02_members['Member 3']['email']}")
+print(f"Hobby ➡ {serine02_members['Member 3']['hobby']}")
+print(f"Country ➡ {serine02_members['Member 3']['country']}")
+print(f"Discipline ➡ {serine02_members['Member 3']['discipline']}")
+print(f"My Preferred Programming Language ➡ {serine02_members['Member 3']['preferred programming language']}\n")
+
+print("✨ Meet Our Team! ✨")
+print("=" * 30)
+
+print(f"🔹 Member 4\nName ➡ {serine02_members['Member 4']['name']}")
+print(f"Slack Username ➡ {serine02_members['Member 4']['slack username']}")
+print(f"Email ➡ {serine02_members['Member 4']['email']}")
+print(f"Hobby ➡ {serine02_members['Member 4']['hobby']}")
+print(f"Country ➡ {serine02_members['Member 4']['country']}")
+print(f"Discipline ➡ {serine02_members['Member 4']['discipline']}")
+print(f"My Preferred Programming Language ➡ {serine02_members['Member 4']['preferred programming language']}\n")
+
+print("🎉 Welcome to Hackbio! 🎉")
