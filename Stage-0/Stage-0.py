@@ -1,3 +1,6 @@
+# Hackbio Biocoding Internship - Stage 0 Task
+# GitHub Repository: https://github.com/shubhika7/hackbio-biocoding-internship
+
 '''
 [1] Hey! I am Shubhika Kumar 
 [2] The codon assigned to me was UCU (Serine)
@@ -5,6 +8,7 @@
 [4] I have used nested dictionaries as a data structure to solve this task
 [5] Team Member 1, Uwidia Osalodion Emmanuel is our Team Leader
 '''
+
 serine02_members = {
  "Member 1" : {
      "name" : "Uwidia Osalodion Emmanuel",
