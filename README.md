@@ -5,3 +5,7 @@ Hey! I am Shubhika Kumar, I have completed the task for this stage.<br>
 - This is my Stage-0 Task<br>
 - I have used nested dictionaries as a data structure to solve this task. <br>
 - Uwidia Osalodion Emmanuel is our Team Leader<br>
+
+
+<h2>Stage-1️⃣</h2>
+Hey! I have completed the task for this stage.<br>
